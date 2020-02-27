@@ -1,0 +1,12 @@
+[
+    { "keys": ["alt+d"], "command": "goto_definition" },
+    { "keys": ["alt+r"], "command": "goto_reference" },
+    { "keys": ["ctrl+insert"], "command": "toggle_overwrite" },
+    { "keys": ["insert"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true} },
+    { "keys": ["ctrl+\\"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true} },
+    { "keys": ["shift+r"], "command": "toggle_regex", "context":
+        [
+            { "key": "setting.is_widget", "operator": "equal", "operand": true }
+        ]
+    },
+]
