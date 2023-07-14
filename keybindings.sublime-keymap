@@ -1,6 +1,8 @@
 [
     { "keys": ["alt+d"], "command": "goto_definition" },
     { "keys": ["alt+r"], "command": "goto_reference" },
+    { "keys": ["alt+shift+r"], "command": "goto_reference", "args": {"side_by_side": true, "clear_to_right": true}  },
+    { "keys": ["alt+shift+d"], "command": "goto_definition", "args": {"side_by_side": true, "clear_to_right": true} },
     { "keys": ["ctrl+insert"], "command": "toggle_overwrite" },
     { "keys": ["insert"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true} },
     { "keys": ["ctrl+\\"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true} },
