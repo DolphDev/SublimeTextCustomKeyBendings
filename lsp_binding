@@ -1,0 +1,40 @@
+// Settings in here override those in "LSP-pyright/LSP-pyright.sublime-settings"
+
+{
+    "disabled_capabilities": {
+        // "completionProvider": true,
+        // "signatureHelpProvider": true,
+        // "documentHighlightProvider": true,
+        // "diagnosticProvider": true,
+        // /*"signatureHelpProvider": true,*/
+        // "codeLensProvider": true,
+    },
+    "settings": {
+        "python.analysis.autoImportCompletions": false,
+        "pyright.disableOrganizeImports": true,
+        "python.analysis.diagnosticMode": "openFilesOnly",
+        "python.analysis.useLibraryCodeForTypes": false,
+        "python.analysis.typeCheckingMode":"off",
+        "python.analysis.diagnosticSeverityOverrides": {
+            "reportDuplicateImport": "none",
+            "reportImplicitStringConcatenation": "none",
+            "reportMissingParameterType": "none",
+            "reportUnboundVariable": "none",
+            "reportUninitializedInstanceVariable": "none",
+            "reportUnusedClass": "none",
+            "reportUnusedFunction": "none",
+            "reportUnusedImport": "none",
+            "reportUnusedVariable": "none",
+            "reportMissingImports": "none",
+            "reportUndefinedVariable": "none",
+            "reportMissingModuleSource": "none",
+            "analyzeUnannotatedFunctions": "none",
+        },
+        "diagnostic.showUnused": false,
+        "python.linting.enabled": false,
+        "python.linting.pylintEnabled": false,
+    },
+
+
+    "enabled": false,
+}
